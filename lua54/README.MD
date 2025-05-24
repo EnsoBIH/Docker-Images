@@ -23,5 +23,5 @@ docker build -t lua54 .
 ### Run a Lua Script
 
 ```sh
-docker run --rm -v "$PWD:/scripts" lua54 lua source.lua
+docker run --rm -v ${PWD}:/scripts lua54 lua source.lua
 ```
